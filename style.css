@@ -27,6 +27,15 @@ ul{
 ul a{
     color: red;
 }
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+  }
 .topnav{
     text-align:left;
     height: 20px;
