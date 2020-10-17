@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            background-image: url(https://cdn.suwalls.com/wallpapers/abstract/dark-blue-blur-29233-1920x1080.jpg);
+            background-repeat: no-repeat;
+            color: white;
+        }
+        p{
+            transition-property: color;
+            transition-duration: 3s;
+        }
+        p:hover{
+            color: purple;
+        }
+        .topnav {
+            text-align: left;
+            height: 20px;
+            line-height: 10px;
+        }
+
+        .menu {
+            margin: 0 40px 0 0;
+            display: inline;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            line-height: 20px;
+            margin-left: 15px;
+        }
+
+        label {
+            font-size: 30px;
+            line-height: 10px;
+            /* display: none; */
+        }
+
+        #toggle {
+            display: none;
+        }
+
+        @media screen and (max-width: 510px) {
+            label {
+                display: block;
+            }
+
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+
+            .menu a {
+                display: block;
+                margin: 0;
+            }
+
+            #toggle:checked+.menu {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <label for="toggle">&#9784</label>
+    <input type="checkbox" id="toggle">
+
+    <div class="topnav menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="careers.html">Careers</a>
+    </div>
+
+    <h2>Here is a little about the website</h2>
+
+    <h3>This Website was made to help people find whatever it might be, food, places to visit, places to go and drink or
+        just places to take pictures in the area of Denver. In the Useful links page, you can find four different links.
+        
+        <p>
+        Links number 1 gives a website to find the best places to eat.
+        </p>
+        <p>Link number 2 gives a website page where you can
+        find the best bars around the city, everyone enjoys a little fun once in a while.
+        </p>   
+        <p>
+        Link 3 has a website where you
+        can find the best places around Denver to visit, for example the Lookout Mountain, Denver's Museum, ect.
+        </p>
+        <p>
+        The fourth link is useful for those who want to take amazing pictures or selfies, it takes the user to a website
+        where it lists some places where they can take some good pictures.</h3>
+        </p>
+</body>
+
+</html>

@@ -3,19 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Careers</title>
     <style>
-        form {
-        color: white;
-        max-width: 550px;
-        margin: 100px auto;
-        padding: 16px;
-        border: 2px solid #333333;
-        background-color: rgb(61, 57, 57);
-      }
+form {
+    font-size: 20px;
+    color: white;
+    max-width: 550px;
+    margin: 100px auto;
+    padding: 16px;
+    border: 2px solid #333333;
+    background-color: rgb(61, 57, 57);
+}
+body{
+    background-image: url(https://cdn.suwalls.com/wallpapers/abstract/dark-blue-blur-29233-1920x1080.jpg);
+}
+.topnav{
+    text-align:left;
+    height: 20px;
+    line-height:10px;
+}
+.menu{
+    margin: 0 40px 0 0;
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+    margin-left: 15px;
+}
+label {
+    font-size: 30px;
+    line-height: 10px;
+    /* display: none; */
+}
+#toggle{
+    display: none;
+}
+
+@media screen and (max-width: 510px){
+    label{
+        display: block;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+}
     </style>
 </head>
 <body>
+    <label for="toggle">&#9784</label>
+    <input type="checkbox" id="toggle">
+
+    <div class="topnav menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="careers.html">Careers</a>
+    </div>
+
     <main>
         <form id="formation" action="" method="get">
             <h2>Hiring now!</h2>
@@ -23,17 +77,21 @@
             <label for="text">Enter your name:</label>
             <input type="text" id="name" placeholder="Name">
             <br>
+            <br>
             <label for="text">Enter your email:</label>
             <input type="text" id=email placeholder="Email">
             <br>
-            <label for="tel">Enter your telephone number</label>
+            <br>
+            <label for="tel">Enter your phone #:</label>
             <input type="tel" id="telephone number" placeholder="telephone number">
+            <br>
             <br>
             <p>Are you at 18 years old?</p>
             <label for="">Yes</label>
             <input type="checkbox" id="checkbox">
             <label for="checkbox">No</label>
             <input type="checkbox" id="checkbox">
+            <br>
             <br>
             <p>Tells us what you're preferred method of communication is:</p>
             <label for="text">Email</label>
