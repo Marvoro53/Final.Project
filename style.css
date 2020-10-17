@@ -68,3 +68,43 @@ label {
         display: block;
     }
 }
+
+@media screen and (min-width:800px){
+    label{
+        display: block;
+        color: blue;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        margin: 0;
+        color: blue;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+}
+
+    @media screen and (min-width:1200px){
+        label{
+            display: block;
+            color: red;
+        }
+        .menu {
+            text-align: center;
+            width: 100%;
+            display: none;
+        }
+        .menu a{
+            display: block;
+            margin: 0;
+            color: red;
+        }
+        #toggle:checked + .menu{
+            display: block;
+        }
+    }

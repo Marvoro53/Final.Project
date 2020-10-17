@@ -19,54 +19,87 @@
             color: purple;
             font-size: 25px;
         }
-        .topnav {
-            text-align: left;
-            height: 20px;
-            line-height: 10px;
-        }
+        .topnav{
+    text-align:left;
+    height: 20px;
+    line-height:10px;
+}
+.menu{
+    margin: 0 40px 0 0;
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+    margin-left: 15px;
+}
+label {
+    font-size: 30px;
+    line-height: 10px;
+    /* display: none; */
+}
+#toggle{
+    display: none;
+}
 
+@media screen and (max-width: 510px){
+    label{
+        display: block;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+}
+
+@media screen and (min-width:800px){
+    label{
+        display: block;
+        color: blue;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        margin: 0;
+        color: blue;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+}
+
+    @media screen and (min-width:1200px){
+        label{
+            display: block;
+            color: red;
+        }
         .menu {
-            margin: 0 40px 0 0;
-            display: inline;
-        }
-
-        .menu a {
-            text-decoration: none;
-            color: white;
-            line-height: 20px;
-            margin-left: 15px;
-        }
-
-        label {
-            font-size: 30px;
-            line-height: 10px;
-            /* display: none; */
-        }
-
-        #toggle {
+            text-align: center;
+            width: 100%;
             display: none;
         }
-
-        @media screen and (max-width: 510px) {
-            label {
-                display: block;
-            }
-
-            .menu {
-                text-align: center;
-                width: 100%;
-                display: none;
-            }
-
-            .menu a {
-                display: block;
-                margin: 0;
-            }
-
-            #toggle:checked+.menu {
-                display: block;
-            }
+        .menu a{
+            display: block;
+            margin: 0;
+            color: red;
         }
+        #toggle:checked + .menu{
+            display: block;
+        }
+    }
     </style>
 </head>
 
@@ -79,7 +112,7 @@
         <a href="about.html">About</a>
         <a href="careers.html">Careers</a>
     </div>
-
+<br>
     <h2>Here is a little about the website</h2>
 
     <h3>This Website was made to help people find whatever it might be, food, places to visit, places to go and drink or
