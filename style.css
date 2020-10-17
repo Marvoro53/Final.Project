@@ -28,7 +28,7 @@ ul a{
     color: red;
 }
 .footer {
-    position: bottom;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
