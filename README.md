@@ -15,5 +15,5 @@
 
 **To install** |
 ---------------|
-git clone 
+git clone https://github.com/Marvoro53/Hamburger-queries.git
  
