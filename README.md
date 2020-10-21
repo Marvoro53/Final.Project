@@ -18,4 +18,4 @@
 ---------------|
 git clone https://github.com/Marvoro53/Hamburger-queries.git
  
- * See here in Github: http://github.com
+ * See here in Github: 
