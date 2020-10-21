@@ -1,7 +1,7 @@
-# Hamburger-queries
+# MyDenver
 
 * Developer: Marvin Lara
-* Institute: Emily Griffith
+* Institute: Emily Griffith Technical College
 * Date Published: October 17, 2020
 * Deployed in Github
 
@@ -10,6 +10,7 @@
 1. HTML
 2. CSS
 3. Bootstrap
+4. w3schools.com
 
 ## DIrections
 
@@ -17,3 +18,4 @@
 ---------------|
 git clone https://github.com/Marvoro53/Hamburger-queries.git
  
+ * See here in Github: http://github.com
