@@ -1,120 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Careers</title>
     <style>
-form {
-    font-size: 20px;
-    color: white;
-    max-width: 550px;
-    margin: 100px auto;
-    padding: 16px;
-    border: 2px solid #333333;
-    background-color: rgb(61, 57, 57);
-}
-body{
-    background-image: url(https://cdn.suwalls.com/wallpapers/abstract/dark-blue-blur-29233-1920x1080.jpg);
-    background-repeat: no-repeat;
-}
-.one{
-    color: white;
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: cornflowerblue;
-    color: white;
-    text-align: center;
-  }
-.topnav{
-    text-align:left;
-    height: 20px;
-    line-height:10px;
-}
-.menu{
-    margin: 0 40px 0 0;
-    display: inline;
-}
-.menu a{
-    text-decoration: none;
-    color: white;
-    line-height: 20px;
-    margin-left: 15px;
-}
-label {
-    font-size: 30px;
-    line-height: 10px;
-    /* display: none; */
-}
-#toggle{
-    display: none;
-}
-
-@media screen and (max-width: 510px){
-    label{
-        display: block;
-    }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a{
-        display: block;
-        margin: 0;
-    }
-    #toggle:checked + .menu{
-        display: block;
-    }
-}
-
-@media screen and (min-width:800px){
-    label{
-        display: block;
-        color: blue;
-    }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a{
-        display: block;
-        margin: 0;
-        color: blue;
-    }
-    #toggle:checked + .menu{
-        display: block;
-    }
-}
-
-    @media screen and (min-width:1200px){
-        label{
-            display: block;
+        form {
+            font-size: 20px;
+            color: white;
+            max-width: 550px;
+            margin: 100px auto;
+            padding: 16px;
+            border: 2px solid #333333;
+            background-color: rgb(61, 57, 57);
+            border: solid;
+        }
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        .h3{
             color: red;
         }
-        .menu {
-            text-align: center;
+        body {
+            background-image: url(https://cdn.suwalls.com/wallpapers/abstract/dark-blue-blur-29233-1920x1080.jpg);
+            background-repeat: no-repeat;
+        }
+
+        .one {
+            color: white;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
             width: 100%;
+            background-color: cornflowerblue;
+            color: white;
+            text-align: center;
+        }
+
+        .topnav {
+            text-align: left;
+            height: 20px;
+            line-height: 10px;
+        }
+
+        .menu {
+            margin: 0 40px 0 0;
+            display: inline;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            line-height: 20px;
+            margin-left: 15px;
+        }
+
+        label {
+            font-size: 30px;
+            line-height: 10px;
+            /* display: none; */
+        }
+
+        #toggle {
             display: none;
         }
-        .menu a{
-            display: block;
-            margin: 0;
-            color: red;
+
+        @media screen and (max-width: 510px) {
+            label {
+                display: block;
+            }
+
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+
+            .menu a {
+                display: block;
+                margin: 0;
+            }
+
+            #toggle:checked+.menu {
+                display: block;
+            }
         }
-        #toggle:checked + .menu{
-            display: block;
+
+        @media screen and (min-width:800px) {
+            label {
+                display: block;
+                color: blue;
+            }
+
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+
+            .menu a {
+                display: block;
+                margin: 0;
+                color: blue;
+            }
+
+            #toggle:checked+.menu {
+                display: block;
+            }
         }
-    }
+
+        @media screen and (min-width:1200px) {
+            label {
+                display: block;
+                color: red;
+            }
+
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+
+            .menu a {
+                display: block;
+                margin: 0;
+                color: red;
+            }
+
+            #toggle:checked+.menu {
+                display: block;
+            }
+        }
     </style>
 </head>
+
 <body>
-    <label for="toggle">&#9784</label>
+    <br>
+    <label for="toggle"> &#9784 </label>
     <input type="checkbox" id="toggle">
 
     <div class="topnav menu">
@@ -122,7 +151,16 @@ label {
         <a href="about.html">About</a>
         <a href="careers.html">Careers</a>
     </div>
+    <br>
+<div>
+    <h2>Do you want to join our family?</h2>
+    <p>My Denver is a place where we as a company want to make it easier for tourists or those who live here already,
+        find the best places all around Denver Colorado. The website is beign updated frequently so there is always
+        something new for our visitors to do!</p>
 
+    <h3 class="h3">If you are interested, please enter your information below &#128071!</h3>
+
+</div>
     <main>
         <form id="formation" action="" method="get">
             <h2>Hiring now!</h2>
@@ -161,4 +199,5 @@ label {
         <p><a href="marvinlara321@gmail.com">Marvinlara321@gmail.com</a></p>
     </div>
 </body>
+
 </html>

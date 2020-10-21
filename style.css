@@ -9,10 +9,10 @@ h1:hover{
     font-size: 70px;
 }
 body{
-    background-image: url(https://cdn.suwalls.com/wallpapers/abstract/dark-blue-blur-29233-1920x1080.jpg);
-    background-repeat: no-repeat;
+    background-color: gray;
     color: white;
     margin-left: 20px;
+    background-size: cover;
 }
 img{
     float: left;
@@ -28,7 +28,7 @@ ul a{
     color: red;
 }
 .footer {
-    position: fixed;
+    /* position: absolute; */
     left: 0;
     bottom: 0;
     width: 100%;
