@@ -59,61 +59,69 @@ label {
 #toggle{
     display: none;
 }
-
-@media screen and (max-width: 510px){
-    label{
+@media screen and (min-width: 500px) {
+    label {
         display: block;
     }
+
     .menu {
         text-align: center;
         width: 100%;
         display: none;
     }
-    .menu a{
+
+    .menu a {
         display: block;
         margin: 0;
     }
-    #toggle:checked + .menu{
+
+    #toggle:checked+.menu {
         display: block;
     }
 }
 
-@media screen and (min-width:800px){
-    label{
+@media screen and (min-width:800px) {
+    label {
         display: block;
         color: blue;
     }
+
     .menu {
         text-align: center;
         width: 100%;
         display: none;
     }
-    .menu a{
+
+    .menu a {
         display: block;
         margin: 0;
         color: blue;
     }
-    #toggle:checked + .menu{
+
+    #toggle:checked+.menu {
         display: block;
     }
 }
 
-    @media screen and (min-width:1200px){
-        label{
-            display: block;
-            color: red;
-        }
-        .menu {
-            text-align: center;
-            width: 100%;
-            display: none;
-        }
-        .menu a{
-            display: block;
-            margin: 0;
-            color: red;
-        }
-        #toggle:checked + .menu{
-            display: block;
-        }
+@media screen and (min-width:1200px) {
+    label {
+        display: block;
+        color: red;
     }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        margin: 0;
+        color: red;
+    }
+
+    #toggle:checked+.menu {
+        display: block;
+    }
+}

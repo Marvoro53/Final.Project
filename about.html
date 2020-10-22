@@ -65,64 +65,72 @@ label {
 #toggle{
     display: none;
 }
+@media screen and (min-width: 500px) {
+            label {
+                display: block;
+            }
 
-@media screen and (max-width: 510px){
-    label{
-        display: block;
-    }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a{
-        display: block;
-        margin: 0;
-    }
-    #toggle:checked + .menu{
-        display: block;
-    }
-}
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
 
-@media screen and (min-width:800px){
-    label{
-        display: block;
-        color: blue;
-    }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a{
-        display: block;
-        margin: 0;
-        color: blue;
-    }
-    #toggle:checked + .menu{
-        display: block;
-    }
-}
+            .menu a {
+                display: block;
+                margin: 0;
+            }
 
-    @media screen and (min-width:1200px){
-        label{
-            display: block;
-            color: red;
+            #toggle:checked+.menu {
+                display: block;
+            }
         }
-        .menu {
-            text-align: center;
-            width: 100%;
-            display: none;
+
+        @media screen and (min-width:800px) {
+            label {
+                display: block;
+                color: blue;
+            }
+
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+
+            .menu a {
+                display: block;
+                margin: 0;
+                color: blue;
+            }
+
+            #toggle:checked+.menu {
+                display: block;
+            }
         }
-        .menu a{
-            display: block;
-            margin: 0;
-            color: red;
+
+        @media screen and (min-width:1200px) {
+            label {
+                display: block;
+                color: red;
+            }
+
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+
+            .menu a {
+                display: block;
+                margin: 0;
+                color: red;
+            }
+
+            #toggle:checked+.menu {
+                display: block;
+            }
         }
-        #toggle:checked + .menu{
-            display: block;
-        }
-    }
     </style>
 </head>
 
