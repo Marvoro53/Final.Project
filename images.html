@@ -125,7 +125,7 @@ img{
     width: 360px;
     height: 340px;
     margin-bottom: 40px;
-    border: solid 4px cornflowerblue;
+    border: solid 3px cornflowerblue;
     border-radius: 20px;
 }
 body{
@@ -133,11 +133,15 @@ body{
     background-size: cover;
 }
 .flex1{
-    transition-duration: 5s;
+    filter: drop-shadow(10px 10px 10px red);
+    transition-duration: 6s;
     transition-property: transform;
 }
 .flex1:hover{
     transform:rotateX(180deg) rotateY(360deg) rotateZ(40deg);
+}
+.flex2{
+    filter: drop-shadow(10px 10px 10px cornflowerblue);
 }
     </style>
 </head>
@@ -182,7 +186,7 @@ body{
         
         <div class="flexbox-container">
         
-          <div class="flexbox-item flex4">
+          <div class="flexbox-item flex2">
                 <img src="https://duclarion.com/wp-content/uploads/sunset1.jpg" alt="">
           
           </div>
@@ -192,7 +196,7 @@ body{
           
           </div>
           
-          <div class="flexbox-item flex6">
+          <div class="flexbox-item flex2">
                 <img src="https://static.guim.co.uk/sys-images/Travel/Pix/gallery/2013/11/1/1383305819437/Sunset-strip---Reno-backe-001.jpg" alt="">
      
           </div>
@@ -209,7 +213,7 @@ body{
             
             </div>
             
-            <div class="flexbox-item flex8">
+            <div class="flexbox-item flex2">
                 <img src="https://cdngeneral.rentcafe.com/dmslivecafe/3/1120437/CO_Denver_CivicLofts_p1095401_14_13_1_PhotoGallery.jpg?width=350" alt="">
             
             </div>
