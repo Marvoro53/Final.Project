@@ -64,7 +64,7 @@ ul a{
     color: white;
     text-align: center;
   }
-.topnav{
+  .topnav{
     text-align:left;
     height: 20px;
     line-height:10px;
@@ -87,7 +87,7 @@ label {
 #toggle{
     display: none;
 }
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
     label {
         display: block;
     }
@@ -107,7 +107,26 @@ label {
         display: block;
     }
 }
+@media screen and (min-width:501px){
+    label {
+        display: block;
+    }
 
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        margin: 0;
+    }
+
+    #toggle:checked+.menu {
+        display: block;
+    }
+}
 @media screen and (min-width:800px) {
     label {
         display: block;
