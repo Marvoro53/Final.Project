@@ -29,6 +29,7 @@ body{
 img{
     float: left;
     margin-right: 20px;
+    filter: drop-shadow(10px 10px 10px red);
 }
 ul{
     text-align: center;
